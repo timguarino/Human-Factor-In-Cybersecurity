@@ -2,7 +2,7 @@
 Companies invest a lot of money into cybersecurity technology. They will ensure the latest and greatest tools and processes to avoid any vulnerabilities, only to be thwarted by the inevitable weakest link - humans. The research on the Psychology of Human Error, conducted by Stamford University in 2020, revealed that human error was the cause of 88% of cybersecurity data breaches. However, according to the 2023 Thales Global Security Study involving nearly 3,000 companies, human error remains a significant factor, causing 55% of data breaches​ (SWEENEY, 2023)​. 
 
 ## Case Studies
-
+to add
 
 ## Social Engineering
 - Human Manipulation
