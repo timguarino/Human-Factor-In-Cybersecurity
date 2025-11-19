@@ -32,22 +32,45 @@ to add
   - Includes personal details: name, boss' name, job, likes, hobbies, etc.
 
 ## The Attack Simulation
-- Use social engineering to find the most popular video games among a group
+The attack targets a person by identifying the video games they play. By offering a special holiday sale, we can entice the victim to click a phishing link that will allow us to steal their credentials when they think they're logging in to the Steam gaming platform.
+### Setup
+- Use social engineering to find the most popular video games among a group or individual
   - Discord groups
   - Local game clubs
 - Create a fake website to offer special Black Friday deals on those games
   - A sense of urgency to force the victim to act quickly without thinking too much
 <img width="555" height="286" alt="gaming site" src="https://github.com/user-attachments/assets/7bc69c5f-5fe8-485a-89d5-9d5889b94a60" />
 
-- Delivery method
-  - Email, Social Media, QR code on college bulletin board
+<img width="602" height="316" alt="gaming site2" src="https://github.com/user-attachments/assets/2760e83d-36ab-4122-b2bf-98cbe78eb928" />
+
+- The phishing link is diguised as one of the video game offer links
+- Another link to download a game contains a malware payload
+
+### Create the Phishing Link
+- BlackEye
+  - Creates link back to machine that created it
+  - Library of fake services to choose from
+    - Generates login page that looks like legitimate service
+- Victim clicks the phishing link, gets directed to our fake site that looks like Steam, and gives us their credentials
+<img width="602" height="311" alt="Blackeye" src="https://github.com/user-attachments/assets/58a8f3c5-2601-4bb3-a83f-a3e884d1ef2d" />
+
+<img width="1379" height="713" alt="blackeye2" src="https://github.com/user-attachments/assets/dc597b3f-220b-4eeb-8de3-72f81c8901ad" />
+
+### Creating the Malware Payload
+- Metasploit
+  - Create a reverse TCP payload
+<img width="602" height="311" alt="metasploit" src="https://github.com/user-attachments/assets/1008e980-7645-4675-a2e9-52bc4514ee7b" />
+
+  - Disguise payload as a game executable
+![metasploit2](https://github.com/user-attachments/assets/b793a1e7-90f7-49df-85fe-ea048fa7f124)
+
+  - Embed payload and phishing link on website
+<img width="1379" height="713" alt="embed_links" src="https://github.com/user-attachments/assets/0c9b4372-4f2c-4474-89e3-1c698a5189de" />
 
 
-
-
-
-
-
+### Delivery method
+- Email, Discord, Social Media, QR code on college bulletin board
+- Friend/classmate, more trusting
 
 
 Solutions
