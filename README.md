@@ -7,7 +7,7 @@ Companies invest a lot of money into cybersecurity technology. They will ensure 
   - North Korean nation state hackers stole and released 100 terabytes of data from Sony. They sent phishing emails to numerous executives, claiming to be from Apple. When the user clicked the link in the email, they were directed to a fake website and entered their credentials. Due to victims using the same password for both work and their Apple ID, the attackers were able to access Sony's systems.
 - Facebook and Google
   - 2013 - 2015
-  - An attacker sent fake invoices to Google and Facebook, posing as a legitimate third-party company that they do business with. Over $100 million was stolen from this attack. There were no fancy scripts or firwall penetrations; just a sophisticated social engineering attack.
+  - An attacker sent fake invoices to Google and Facebook, posing as a legitimate third-party company that they do business with. Over $100 million was stolen from this attack. There were no fancy scripts or firewall penetrations; just a sophisticated social engineering attack.
 
 ## Social Engineering
 - Human Manipulation
