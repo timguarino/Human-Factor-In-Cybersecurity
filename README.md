@@ -78,6 +78,8 @@ The attack targets a person by identifying the video games they play. By offerin
 - Email, Discord, Social Media, QR code on college bulletin board
 - Friend/classmate, more trusting
 
+## Impact
+In this test scenario, the impact is minimal. The malware is benign and we knew to use fake credentials on the phishing site. This project showed just how easy it was to create and execute believable phishing and malware attacks. With just a little bit of effort, it can be very difficult for the average person to distinguish a legitimate login page from a fake one. People tend to be trusting of others in a casual setting. Talking about your favorite video game seems harmless enough, until it's used against you in a phishing attack. People are the greatest asset of an organization, and also its greatest weakness. The best technical cybersecurity infrastructure is still susceptible to human error, incompetence, or malicious intent.
 
 ## Solutions
 - Multi-Factor Authentication
@@ -86,9 +88,10 @@ The attack targets a person by identifying the video games they play. By offerin
   - Password managers can help to have complex, unique passwords for each account
 - Security awareness training
   - Routine training and tests can make users more cyber-conscious and increase awareness. Teaching them signs of phishing and common schemes is one of the biggest mitigating factors.
-- Strict physical controls for corporations
+- Strict physical controls
   - Badge checking
   - Gates that only allow 1 person at a time
+  - Privacy screens on monitors and cell phones
 
 
 ## References
