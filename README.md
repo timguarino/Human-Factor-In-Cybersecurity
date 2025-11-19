@@ -73,11 +73,11 @@ The attack targets a person by identifying the video games they play. By offerin
 - Friend/classmate, more trusting
 
 
-Solutions
+## Solutions
+- Multi-Factor Authentication
+  - Using MFA will mitigate impact of a stolen/phished credential. The attacker will be unable to log in with the password alone, giving the victim additional protections and time to change their password.
 - Security awareness training
-  - Routine training and tests
-- MFA
-  - Mitigate impact of a stolen/phished credential
-- Strict physical controls
+  - Routine training and tests can make users more cyber-conscious and increase awareness. Teaching them signs of phishing and common schemes is one of the biggest mitigating factors.
+- Strict physical controls for corporations
   - Badge checking
   - Gates that only allow 1 person at a time
