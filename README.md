@@ -1,8 +1,13 @@
 # Human Factor In Cybersecurity
-Companies invest a lot of money into cybersecurity technology. They will ensure the latest and greatest tools and processes to avoid any vulnerabilities, only to be thwarted by the inevitable weakest link - humans. The research on the Psychology of Human Error, conducted by Stamford University in 2020, revealed that human error was the cause of 88% of cybersecurity data breaches. However, according to the 2023 Thales Global Security Study involving nearly 3,000 companies, human error remains a significant factor, causing 55% of data breaches​ (SWEENEY, 2023)​. 
+Companies invest a lot of money into cybersecurity technology. They will ensure the latest and greatest tools and processes to avoid any vulnerabilities, only to be thwarted by the inevitable weakest link - humans. The research on the Psychology of Human Error, conducted by Stamford University in 2020, revealed that human error was the cause of 88% of cybersecurity data breaches. However, according to the 2023 Thales Global Security Study involving nearly 3,000 companies, human error remains a significant factor, causing 55% of data breaches​ (SWEENEY)​. 
 
 ## Case Studies
-to add
+- Sony Pictures
+  - 2014
+  - North Korean nation state hackers stole and released 100 terabytes of data from Sony. They sent phishing emails to numerous executives, claiming to be from Apple. When the user clicked the link in the email, they were directed to a fake website and entered their credentials. Due to victims using the same password for both work and their Apple ID, the attackers were able to access Sony's systems.
+- Facebook and Google
+  - 2013 - 2015
+  - An attacker sent fake invoices to Google and Facebook, posing as a legitimate third-party company that they do business with. Over $100 million was stolen from this attack. There were no fancy scripts or firwall penetrations; just a sophisticated social engineering attack.
 
 ## Social Engineering
 - Human Manipulation
@@ -38,6 +43,7 @@ The attack targets a person by identifying the video games they play. By offerin
   - Discord groups
   - Local game clubs
 - Create a fake website to offer special Black Friday deals on those games
+  - Simple HTML, CSS, and javascript is more than enough to be convincing
   - A sense of urgency to force the victim to act quickly without thinking too much
 <img width="555" height="286" alt="gaming site" src="https://github.com/user-attachments/assets/7bc69c5f-5fe8-485a-89d5-9d5889b94a60" />
 
@@ -58,7 +64,7 @@ The attack targets a person by identifying the video games they play. By offerin
 
 ### Creating the Malware Payload
 - Metasploit
-  - Create a reverse TCP payload
+  - Create a reverse TCP payload. This is a passive attack, where the malware can sit for any amount of time. Once downloaded and executed, the victim's machine will initiate a shell connection back to the attacker's computer.
 <img width="602" height="311" alt="metasploit" src="https://github.com/user-attachments/assets/1008e980-7645-4675-a2e9-52bc4514ee7b" />
 
   - Disguise payload as a game executable
@@ -76,8 +82,16 @@ The attack targets a person by identifying the video games they play. By offerin
 ## Solutions
 - Multi-Factor Authentication
   - Using MFA will mitigate impact of a stolen/phished credential. The attacker will be unable to log in with the password alone, giving the victim additional protections and time to change their password.
+- Avoid password re-use
+  - Password managers can help to have complex, unique passwords for each account
 - Security awareness training
   - Routine training and tests can make users more cyber-conscious and increase awareness. Teaching them signs of phishing and common schemes is one of the biggest mitigating factors.
 - Strict physical controls for corporations
   - Badge checking
   - Gates that only allow 1 person at a time
+
+
+## References
+- CNBC. (2019, March 27). Phishing email scam stole $100 million from Facebook and Google. CNBC. https://www.cnbc.com/2019/03/27/phishing-email-scam-stole-100-million-from-facebook-and-google.html
+- Perera, D. (2015, April). Researcher: Sony hackers used fake emails. Politico. https://www.politico.com/story/2015/04/sony-hackers-fake-emails-117200.html
+- Sweeney, A. (n.d.). The cybersecurity risks caused by human error and how to avoid them. ReadyWorks. https://www.readyworks.com/blog/the-cybersecurity-risks-caused-by-human-error-and-how-to-avoid-them
