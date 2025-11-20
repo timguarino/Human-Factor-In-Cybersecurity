@@ -88,6 +88,8 @@ In this test scenario, the impact is minimal. The malware is benign and we knew 
   - Password managers can help to have complex, unique passwords for each account
 - Security awareness training
   - Routine training and tests can make users more cyber-conscious and increase awareness. Teaching them signs of phishing and common schemes is one of the biggest mitigating factors.
+- Spam filtering
+  - Automated email filtering, potential area for AI-powered detection
 - Strict physical controls
   - Badge checking
   - Gates that only allow 1 person at a time
