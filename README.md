@@ -3,6 +3,7 @@ Companies invest a lot of money into cybersecurity technology. They will ensure 
 
 ## Social Engineering
 Social engineering is an easier way to bypass other security measures. It involves manipulating people to gain access or discolse informaiton. Since it relies on the victim's willingness to trust the attacker, typical targets are the elderly or those with little technical knowledge. However, anybody can be a victim of a social engineering attack. Many large organizations have suffered major cyberattacks that began with simple social engineering methods.
+
 <img width="541" height="380" alt="social engineering goals chart" src="https://github.com/user-attachments/assets/64936c29-fda7-45cc-8941-43dac616e530" />
 
 ### Methods
