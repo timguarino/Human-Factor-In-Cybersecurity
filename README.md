@@ -12,7 +12,7 @@ Companies invest a lot of money into cybersecurity technology. They will ensure 
 ## Social Engineering
 - Human Manipulation
 - Tricking individuals into revealing information or granting access
-- Depends on the victim's willingness to trust the attacker
+- Relies on the victim's willingness to trust the attacker
 <img width="541" height="380" alt="social engineering goals chart" src="https://github.com/user-attachments/assets/64936c29-fda7-45cc-8941-43dac616e530" />
 
 ### Methods
@@ -37,7 +37,7 @@ Companies invest a lot of money into cybersecurity technology. They will ensure 
   - Includes personal details: name, boss' name, job, likes, hobbies, etc.
 
 ## The Attack Simulation
-The attack targets a person by identifying the video games they play. By offering a special holiday sale, we can entice the victim to click a phishing link that will allow us to steal their credentials when they think they're logging in to the Steam gaming platform.
+The attack targets a person by first identifying the video games they play. By offering a special holiday sale relating to that game, we can entice the victim to click a phishing link that will allow us to steal their credentials when they think they're logging in to the Steam gaming platform. We also explore how malware can be hidden to trick the victim into downloading it. 
 ### Setup
 - Use social engineering to find the most popular video games among a group or individual
   - Discord groups
@@ -68,7 +68,7 @@ The attack targets a person by identifying the video games they play. By offerin
 <img width="602" height="311" alt="metasploit" src="https://github.com/user-attachments/assets/1008e980-7645-4675-a2e9-52bc4514ee7b" />
 
   - Disguise payload as a game executable
-![metasploit2](https://github.com/user-attachments/assets/b793a1e7-90f7-49df-85fe-ea048fa7f124)
+<img src="https://github.com/user-attachments/assets/b793a1e7-90f7-49df-85fe-ea048fa7f124" />
 
   - Embed payload and phishing link on website
 <img width="1379" height="713" alt="embed_links" src="https://github.com/user-attachments/assets/0c9b4372-4f2c-4474-89e3-1c698a5189de" />
