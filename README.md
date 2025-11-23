@@ -98,7 +98,14 @@ The victim needs to be directed to the fake website. Delivery methods include:
   - Social Media
   - QR code on college bulletin board
 For our simulation, we sent the link via discord. This can simulate friends sharing a website among each other or convincing strangers that it is legitimate and has a good deal. A person may be more trusting of a classmate than a complete stranger, so discord servers for University students are a prime target in a real-world scenario.
+<img width="1028" height="775" alt="discord_delivery" src="https://github.com/user-attachments/assets/bb6145f9-1ad8-434d-bc94-11ae8b73b7dd" />
 
+### Harvesting Credentials
+When the victim clicks the phishing link, they are directed to a very convincing fake Steam login page.
+<img width="1710" height="731" alt="fakesteampage" src="https://github.com/user-attachments/assets/14ed19f2-866c-4e85-88a3-d5cb2e08be49" />
+
+When they enter their credentials, the attack machine receives them in plain text.
+<img width="1048" height="846" alt="hacker_creds" src="https://github.com/user-attachments/assets/4176423d-1fc0-4d71-82a7-0826e78153a3" />
 
 ## Impact
 In this test scenario, the impact is intentionally minimal. The malware is benign and we knew to use fake credentials on the phishing site. However, it was enough to demonstrate the negative outcomes from such an attack. This project showed just how easy it was to create and execute believable phishing and malware attacks. With just a little bit of effort, it can be very difficult for the average person to distinguish a legitimate login page from a fake one. People tend to be trusting of others in a casual setting. Talking about your favorite video game seems harmless enough, until it's used against you in a phishing attack. 
