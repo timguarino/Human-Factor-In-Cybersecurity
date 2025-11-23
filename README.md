@@ -41,10 +41,10 @@ Social engineering is an easier way to bypass other security measures. It involv
 ## The Attack Simulation
 To safely and ethically explore social engineering attacks, we created a few simulations in a test environment. For this, we used 3 virtual machines:
   1. Website host
-     - Kali linux
+     - Kali Linux
      - A fake website containing malicious links
   2. Attack machine
-     - Kali linux
+     - Kali Linux
      - Created phishing URL and hosted a fake Steam login page
      - Created malware payload to host on website
   3. Victim Computer
@@ -72,7 +72,7 @@ We also explore how malware can be hidden to trick the victim into downloading i
 ### Create the Phishing Link
 - BlackEye
   - Creates link back to the attack machine that created it
-  - contains a library of fake services to choose from when creating the link
+  - Contains a library of fake services to choose from when creating the link
     - Generates login page that looks like the legitimate service
 - Victim clicks the phishing link, gets directed to our fake site that looks like Steam, and gives us their credentials
 <img width="602" height="311" alt="Blackeye" src="https://github.com/user-attachments/assets/58a8f3c5-2601-4bb3-a83f-a3e884d1ef2d" />
