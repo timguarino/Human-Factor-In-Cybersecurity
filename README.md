@@ -52,7 +52,9 @@ To safely and ethically explore social engineering attacks, we created a few sim
      - Simulate a victim navigating to the website and clicking the malicious links
 
 The attack targets a person by first identifying the video games they play. By offering a special holiday sale relating to that game, we can entice the victim to click a phishing link that will allow us to steal their credentials when they think they're logging in to the Steam gaming platform.
+
 <img width="1543" height="813" alt="phishing diagram" src="https://github.com/user-attachments/assets/1bfb0f86-c988-48b3-8c9c-9607a57099a0" />
+
 
 We also explore how malware can be hidden to trick the victim into downloading it. Since we used a simple payload that does not bypass antivirus, for the attack to be successful we needed to create a specific, but common, scenario. Often when gamers play "cracked" games, they need to disable their antivirus for it to work properly. With this in mind, our simple payload is easily executed. If this was not the case, we would need to use more advanced (and more dangerous) malware that can bypass antivirus software.
 
