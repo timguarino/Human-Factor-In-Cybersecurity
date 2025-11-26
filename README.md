@@ -52,8 +52,11 @@ To safely and ethically explore social engineering attacks, we created a few sim
      - Simulate a victim navigating to the website and clicking the malicious links
 
 The attack targets a person by first identifying the video games they play. By offering a special holiday sale relating to that game, we can entice the victim to click a phishing link that will allow us to steal their credentials when they think they're logging in to the Steam gaming platform.
+<img width="1543" height="813" alt="phishing diagram" src="https://github.com/user-attachments/assets/1bfb0f86-c988-48b3-8c9c-9607a57099a0" />
 
 We also explore how malware can be hidden to trick the victim into downloading it. Since we used a simple payload that does not bypass antivirus, for the attack to be successful we needed to create a specific, but common, scenario. Often when gamers play "cracked" games, they need to disable their antivirus for it to work properly. With this in mind, our simple payload is easily executed. If this was not the case, we would need to use more advanced (and more dangerous) malware that can bypass antivirus software.
+
+<img width="1536" height="812" alt="malware diagram" src="https://github.com/user-attachments/assets/14f6d69e-c7c2-47bd-8690-1231c88328c9" />
 
 ### Setup
 - Use social engineering to find the most popular video games among a group or individual
@@ -107,11 +110,13 @@ When the victim clicks the phishing link, they are directed to a very convincing
 When they enter their credentials, the attack machine receives them in plain text.
 <img width="1048" height="846" alt="hacker_creds" src="https://github.com/user-attachments/assets/4176423d-1fc0-4d71-82a7-0826e78153a3" />
 
-## Impact
+## Conclusion
+
+### Impact
 In this test scenario, the impact is intentionally minimal. The malware is benign and we knew to use fake credentials on the phishing site. However, it was enough to demonstrate the negative outcomes from such an attack. This project showed just how easy it was to create and execute believable phishing and malware attacks. With just a little bit of effort, it can be very difficult for the average person to distinguish a legitimate login page from a fake one. People tend to be trusting of others in a casual setting. Talking about your favorite video game seems harmless enough, until it's used against you in a phishing attack. 
 People are the greatest asset of an organization, and also its greatest weakness. The best technical cybersecurity infrastructure is still susceptible to human error, incompetence, or malicious intent. It is easy to get over-confident and think you're immune to such an attack, but if it can happen to Google, it can definitely happen to you.
 
-## Solutions
+### Solutions
 - Multi-Factor Authentication
   - Using MFA will mitigate impact of a stolen/phished credential. The attacker will be unable to log in with the password alone, giving the victim additional protections and time to change their password.
 - Avoid password re-use
@@ -125,7 +130,7 @@ People are the greatest asset of an organization, and also its greatest weakness
   - Gates that only allow 1 person at a time
   - Privacy screens on monitors and cell phones
 
-### Next Steps
+## Next Steps
 To explore this topic further, we could consider some more advanced techniques. Many of these would require some big ethical considerations in an approved and regulated lab setting.
 - Advanced malware
   - It would be fascinating to explore more advanced malware payloads and what can be accomplished before a user notices and remediates their system.
