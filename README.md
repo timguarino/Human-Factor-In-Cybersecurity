@@ -112,6 +112,16 @@ When the victim clicks the phishing link, they are directed to a very convincing
 When they enter their credentials, the attack machine receives them in plain text.
 <img width="1048" height="846" alt="hacker_creds" src="https://github.com/user-attachments/assets/4176423d-1fc0-4d71-82a7-0826e78153a3" />
 
+### Reverse TCP Malware
+The victim downloads the malware payload disguised as a game.
+<img width="977" height="687" alt="malwarefile" src="https://github.com/user-attachments/assets/95fa1956-5593-475e-b1bc-39aac0082b58" />
+
+The attacker's terminal when the victim opens the file, iniitating the reverse TCP connection.
+<img width="978" height="725" alt="victimopensfile" src="https://github.com/user-attachments/assets/63ed61db-5fe0-4ee0-ac98-b8cdef0b1a18" />
+
+Using the reverse TCP connection to gain information about the computer.
+<img width="802" height="604" alt="infofrompc" src="https://github.com/user-attachments/assets/ff84034e-14fc-4eda-a406-576a6a49bf6d" />
+
 ## Conclusion
 
 ### Impact
